@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="256px" height="256px" viewBox="0 0 256 256">
+			
+		<path d="M0 0h224v32h-192v192h-32v-224z" fill=" rgb(255, 255, 255)"/>
+		<path d="M224 0h32v256h-256v-32h224v-224z" fill=" rgb(0, 0, 0)"/>
+		<path d="M32 32h160v32h-128v128h-32v-160z" fill=" rgb(223, 223, 223)"/>
+		<path d="M192 32h32v192h-192v-32h160v-160z" fill=" rgb(128, 128, 128)"/>
+		<path d="M64 64h128v128h-128v-128z" fill=" rgb(192, 192, 192)"/>
+	
+		</svg>

@@ -1,0 +1,45 @@
+.shortCut_btn{
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    box-sizing: unset;
+}
+
+.shortCut_btn *{
+    pointer-events: none;
+}
+
+.shortcut{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.shortcut img{
+    width: 33px;
+    user-select: none;
+}
+
+.shortcut .title{
+    color: #fff;
+    text-align: center;
+    line-height: 1em;
+    user-select: none;
+}
+
+.shortCut_btn.selected::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(0, 122, 204);
+    background: rgba(0, 122, 204, 0.2);
+    border-radius: 2px;
+}
